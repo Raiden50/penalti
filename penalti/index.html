@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Pênalti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo de Pênalti</h1>
+    <div class="game-container">
+        <div class="field">
+            <div class="goal"></div>
+            <div class="keeper"></div>
+            <div class="ball"></div>
+        </div>
+        <div class="controls">
+            <h2>Escolha seu lado:</h2>
+            <div class="buttons">
+                <button class="kick-btn" data-direction="left">Esquerda</button>
+                <button class="kick-btn" data-direction="center">Meio</button>
+                <button class="kick-btn" data-direction="right">Direita</button>
+            </div>
+            <p id="message">Clique em um dos botões para chutar!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
